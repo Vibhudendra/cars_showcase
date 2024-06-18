@@ -4,7 +4,9 @@ import Image from "next/image";
 import PrimaryButton from "./PrimaryButton";
 
 const Hero = () => {
-  const handleScroll = () => {};
+  const handleScroll = () => {
+    window.scrollTo(800, 800);
+  };
   return (
     <div className="hero">
       <div className="flex-1 pt-36 padding-x">
